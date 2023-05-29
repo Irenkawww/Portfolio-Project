@@ -4,6 +4,9 @@
     --bg-color: #d4f8ffdf;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+    margin-bottom: 25px;
+}
 h1,
 h2,
 h3 {
