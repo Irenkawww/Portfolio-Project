@@ -18,15 +18,15 @@ h3 {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 120px;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 36px;
     opacity: 0.7;
 }
 
@@ -34,7 +34,7 @@ p {
     padding: 20px;
     margin: 10px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
     text-align: center;
     background-color: var(--bg-color);
@@ -42,20 +42,20 @@ p {
 
 @media (max-width:700px) {
     h1 {
-            font-size: 36px;
+            font-size: 48px;
         }
     
         h2 {
-            font-size: 18px;
+            font-size: 30px;
         }
     
         h3 {
-            font-size: 14px;
+            font-size: 20px;
             opacity: 0.7;
         }
     
         p {
-            padding: 10px;
+            padding: 15px;
             margin: 5px;
             font-size: 10px;
             line-height: 1;
@@ -65,8 +65,12 @@ p {
         margin: 10px;
         }
     .smallfontsize {
-            font-size: 10px;
+            font-size: 12px;
      }
+}
+
+.smallfontsize {
+    font-size: 20px;
 }
 
 .navigation-links {
@@ -81,6 +85,7 @@ p {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 .contact-link {
@@ -108,7 +113,7 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 28px;
+    font-size: 34px;
     text-decoration: none;
     margin: 20px;
     padding-bottom: 20px;
