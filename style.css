@@ -9,7 +9,7 @@
     --third-font-family:'Lato',sans-serif;
 }
 body {
-    margin-bottom: 100px;
+    margin-bottom: 5px;
     font-family: var(--body-font-family);
 }
 h1,
@@ -41,6 +41,18 @@ p {
     text-align: center;
     background-color: var(--bg-color);
 }
+footer {
+    background-color: var(--bg-color);
+    }
+footer .social-links a {
+margin: 15px;
+padding: 10px;
+transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover{
+    border-radius: 50%;
+    border: 2px solid var(--primary-darker-color);
+}
 .navbar{
     justify-content: flex-end;
 }
@@ -52,7 +64,7 @@ p {
     font-family: var(--third-font-family);
     margin-top: 5px;
 }
-  .zero-opacity{
+.zero-opacity{
     opacity: 1;
   }
 .navigation-links {
@@ -93,22 +105,28 @@ p {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
-    font-size: 34px;
+    font-size: 25px;
     text-decoration: none;
-    margin: 20px;
-    padding-bottom: 20px;
-}
+    padding: 10px;
+   }
 .email-link:hover {
     text-decoration: underline;
+    color: var(--primary-darker-color);
 }
-
 .center-picture {
     display: block;
     position: center;
     max-width: 100%;
     height: auto;
 }
-
+.link {
+     color: var(--primary-darker-color);
+     text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
 .image {
     max-width: 100%;
     height: auto;
