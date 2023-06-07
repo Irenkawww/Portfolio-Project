@@ -9,7 +9,7 @@
     --third-font-family:'Lato',sans-serif;
 }
 body {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     font-family: var(--body-font-family);
 }
 h1,
@@ -53,16 +53,37 @@ footer .social-links a:hover{
     border-radius: 50%;
     border: 2px solid var(--primary-darker-color);
 }
-.navbar{
-    justify-content: flex-end;
+nav {
+    background-color: var(--bg-color);
+    padding: 10px;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+  }
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+nav a:hover,nav li.active a {
+    text-decoration:overline;
+    color: black;
+    }
+nav ul {
+    margin:0px;
+    padding:0px;
+}
+nav.container-fluid {
+   padding: 0px;
 }
 
 .smallfontsize {
-    font-size: 18px;
+    font-size: 19px;
 }
-.third-font-family {
-    margin-top: 5px;
-}
+
 .zero-opacity{
     opacity: 1;
   }
@@ -74,8 +95,8 @@ footer .social-links a:hover{
 
 .navigation-links a {
     margin: 20px;
-    border-radius: 4px;
     padding: 20px 15px;
+    border-radius: 4px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
@@ -94,11 +115,6 @@ footer .social-links a:hover{
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
    }
-.homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-}
 .email-link {
     display: flex;
     justify-content: center;
@@ -111,12 +127,6 @@ footer .social-links a:hover{
     text-decoration: underline;
     color: var(--primary-darker-color);
 }
-.center-picture {
-    display: block;
-    position: center;
-    max-width: 100%;
-    height: auto;
-}
 .link {
      color: var(--primary-darker-color);
      text-decoration: none;
@@ -125,22 +135,21 @@ footer .social-links a:hover{
     text-decoration: underline;
     color: var(--primary-color);
 }
+.center-picture {
+    display: block;
+    position: center;
+    max-width: 100%;
+    height: auto;
+}
 .image {
     max-width: 100%;
     height: auto;
 }
-
 .widefull {
     margin: auto;
     max-width: 900px;
 }
-.space{
-    padding: 10px;
-    margin: 10px;
-}
-.bg-body-tertiary {
-    --bs-bg-opacity: 0;
-}
+
 @media (max-width:700px) {
     h1 {
         font-size: 48px;

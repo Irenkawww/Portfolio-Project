@@ -33,39 +33,25 @@
     <title>About Iryna Shcherbytska, Front-end developer</title>
   </head>
   <body>
-    <nav class="navbar" style="background-color: #d4f8ffdf">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                class="nav-link active smallfontsize"
-                aria-current="page"
-                href="index.html"
-                title="Home page"
-                ><strong>Home Page</strong></a
-              >
-              <a
-                class="nav-link smallfontsize"
-                href="about.html#contact"
-                title="Contact Iryna"
-                >Contact Me</a
-              >
-            </div>
-          </div>
-        </div>
-      </nav>
+    <nav class="d-flex">
+      <div class="container-fluid">
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Iryna Shcherbytska">About</a>
+          </li>
+          <li>
+            <a href="about.html#allprojectslink" title="Iryna's projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="about.html#contact" title="Contact Elena">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="widefull">
       <div class="container-fluid text-center">
@@ -73,7 +59,7 @@
           <div class="col-sm-12">
             <h1>About me:</h1>
             <div>
-              <p>
+              <p class="fst-italic">
                 Welcome to my homepage! I'm Iryna, a Front-end developer
                 currently embarking on an exciting coding journey, experienced
                 in HTML5, CSS, CSS Flexbox, Bootstrap, JavaScript, Figma.
@@ -193,7 +179,7 @@
           href="https://github.com/Irenkawww/Portfolio-Project"
           target="_blank"
           title="GitHub link"
-          >open-sourceв on GitHub</a
+          >open-sourced on GitHub</a
         >
       </div>
     </footer>
