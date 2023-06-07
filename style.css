@@ -5,7 +5,7 @@
     --bg-color: #d4f8ffdf;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --header-font-family:'Irish Grover',cursive;
-    --body-font-family:'Patrick',cursive;
+    --body-font-family: Georgia;
     --third-font-family:'Lato',sans-serif;
 }
 body {
