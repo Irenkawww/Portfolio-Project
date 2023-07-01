@@ -79,6 +79,7 @@ nav ul {
 
 .smallfontsize {
     font-size: 19px;
+    text-align: center;
 }
 
 .zero-opacity{
@@ -120,9 +121,17 @@ nav ul {
     text-decoration: none;
     padding: 10px;
    }
+   .email-link-simple{
+     color: var(--primary-darker-color);
+   }
 .email-link:hover {
     text-decoration: underline;
     color: var(--primary-darker-color);
+}
+.email-link-simple:hover {
+    color: var(--primary-darker-color);
+    text-decoration: none;
+    color: var(--primary-color);
 }
 .link {
      color: var(--primary-darker-color);
